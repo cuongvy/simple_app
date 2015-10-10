@@ -24,6 +24,7 @@ class UserDatatable < AjaxDatatablesRails::Base
       [
         record.name,
         record.phone,
+        record.address,
         record.address
         # comma separated list of the values for each cell of a table row
         # example: record.attribute,
